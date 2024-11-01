@@ -1,0 +1,17 @@
+{
+	"landingPage": "/wp-admin/",
+	"steps": [
+		{
+			"step": "login",
+			"username": "admin",
+			"password": "password"
+		},
+		{
+			"step": "installPlugin",
+			"pluginZipFile": {
+				"resource": "wordpress.org/plugins",
+				"slug": "uncomment"
+			}
+		}
+	]
+}
